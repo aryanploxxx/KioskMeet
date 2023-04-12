@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800;200&display=swap" rel="stylesheet">
+    <title>KioskMeet</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            /* background-image: url("9260246_4115013.png"); */
+            background-color: #3AAFA9;
+            color: #feffff;
+            /* background-repeat: no-repeat; */
+            /* background-size: 50%; */
+            /* background-position: 110% -10%; */
+            font-family: 'Open Sans';
+            /* background-image: linear-gradient(to right, #eecda3 , #EF629F); */
+        }
+
+        ::selection {
+            background-color: rgb(163, 5, 5);
+        }
+
+        .wrapper {
+            margin: 0px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height:100%;
+            /* height: 100%; */
+            /* background-image: linear-gradient(to right, #eecda3 , #EF629F); */
+            background-image: url("bg_gradient.jpg");
+            /* background-color: #D1B7E2; */
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* background-position: 120% 10%; */
+            box-sizing: border-box;
+            border-bottom: 40px solid rgb(163, 5, 5);
+            z-index: 1;
+        }
+
+        .login-button {
+            color: white;
+            border: 2px solid white;
+            padding: 10px 35px;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+        .login-button:hover {
+            color: black;
+            background-color: white;
+            transition: 0.2s ease-in-out;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited, a:link {
+            color: white;
+        }
+        
+        a:hover {
+        color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- <div style="position:absolute;right:100px;height: 68.35%;padding: 100px;background-color: rgb(0, 0, 0,0.6) ;display:block;z-index: 211;">
+        <span style="color:#2B7A78">Project Developers: </span><br>
+        <em>
+            Aryan Gupta 21104031 <br>
+            Pritpal Singh 21104023 <br>
+            Samarpit Kandhari 21104067 <br>
+            Dweep 21104003 <br>
+        </em>
+    </div> -->
+    <div class="wrapper">
+        <table style="border-spacing: 0px 50px;margin-top: 90px;margin-left: 100px;">
+            <tr>
+                <td style="margin-top: 500px;">
+                    <div style="font-family: 'Open Sans';line-height: 8.2vh;margin-bottom:-15px;">
+                        <span style="font-family:'Open Sans';font-size: 52px;">
+                            Welcome To
+                        </span>
+                        <br>
+                        <img src="KioskMeet_Logo_White.png" style="width: 700px;">
+                    </div>
+                </td>
+                <td style="padding: 100px;"></td>
+                <td rowspan="3" style="border: 2px dashed white;text-align: center;font-size: 20px;padding: 70px;background-color: rgb(0, 0, 0,0.6) ;">
+                    <span style="color:#2B7A78">Project Developers: </span><br>
+                    <em>
+                        Aryan Gupta 21104031 <br>
+                        Pritpal Singh 21104023 <br>
+                        Samarpit Kandhari 21104067 <br>
+                        Dweep 21104003 <br>
+                    </em>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">
+                    <p style="font-weight: 200;margin-top:-15px;">
+                        KioskMeet is a web application that aims to be the one stop solution for 
+                        class-wise information management. Students can track their courses, 
+                        schedule and attendance as well as check their disciplinary action and 
+                        marks among others.As an additional feature, KioskMeet developers plan 
+                        to remove external dependency for online classes by integrating a video 
+                        calling application inside the portal itself. 
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="index.php">
+                        <button class="login-button">
+                            <span style="font-size: 22px;">Student / Faculty Login</span>
+                        </button>
+                    </a>
+                        <span style="margin-left: 20px;margin-right: 20px;font-size: 40px">|</span>
+                    <a href="./auth/loginAdmin.php">
+                        <button class="login-button">
+                            <span style="font-size: 22px;">Admin Login</span>
+                        </button>
+                    </a>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>
+                    <span style="color:#2B7A78">Project Developers: </span><br>
+                    <em>
+                        Aryan Gupta 21104031 <br>
+                        Pritpal Singh 21104023 <br>
+                        Samarpit Kandhari 21104067 <br>
+                        Dweep 21104003 <br>
+                    </em>
+                </td>
+            </tr> -->
+        </table>
+    </div>
+    <script src="https://kit.fontawesome.com/ba976bef09.js" crossorigin="anonymous"></script>
+</body>
+</html>

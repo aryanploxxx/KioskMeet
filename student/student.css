@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../bg_gradient.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-color: black; */
+}
+
+#navbar {
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* box-shadow: 0px 5px 30px -15px rgb(37, 37, 37); */
+}
+
+#title {
+  display: flex;
+  padding: 0 20px;
+}
+
+#title small {
+  margin: 4px 10px;
+}
+
+#nav-items {
+  display: flex;
+  color: white;
+}
+.nav-item {
+  margin: 0 20px;
+  transition: transform 0.05s ease-out;
+}
+
+.nav-item:hover {
+  transform: scaleX(1.1);
+}
+
+.nav-item a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#profile-wrapper {
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255,255,255,0.2);
+  min-height: 220px;
+  max-width: 400px;
+  box-shadow: 0px 5px 30px -3px rgb(37, 37, 37);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -1550%);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+th,
+td,
+tr {
+  min-width: 150px;
+  padding: 8px 7px;
+  text-align: center;
+}
+
+tr {
+  box-shadow: 0px 5px 20px -15px rgb(37, 37, 37);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(255,255,255,0.8);
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+td {
+  margin: 10px;
+}
